@@ -1,7 +1,7 @@
 name: glu
-config-opts: [--disable-static]
+buildsystem: meson
 sources:
   - type: archive
-    url: https://gitlab.freedesktop.org/mesa/glu/-/archive/master/glu-master.tar.gz
-    sha256: be7e2f8369e8c3a524cad862d522bc0bf5a0ce7322359fafa373b8ba7a5b57a0
+    url: https://gitlab.freedesktop.org/mesa/glu/-/archive/glu-9.0.3/glu-glu-9.0.3.tar.bz2
+    sha256: 38044ee4f255578165a54eaeb089b67fb64f7f7c0ce5fa690cd47c9df10b263c
 cleanup: [/include, /lib/*.la, /lib/debug, /lib/pkgconfig]
